@@ -5,6 +5,7 @@ import {
 import FooterComponent from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import NotFound from "./Components/NotFound";
+import Post from "./Components/Post";
 import Detail from './Screen/Detail';
 import Home from './Screen/Home';
 
@@ -16,6 +17,7 @@ const App = () => {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/Post" component={Post} />
         <Route path="/Detail/:id" component={Detail} />
         <Route path="*" component={NotFound} />
       </Switch>

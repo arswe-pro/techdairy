@@ -1,5 +1,6 @@
 import { Button, Col, Row, Typography } from 'antd';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const { Title } = Typography
 const TopSection = () => {
@@ -10,7 +11,7 @@ const TopSection = () => {
                     <Title className='text-uppercase'>Tech Dairy is a place to write, read, and connect</Title>
                     <Title level={5} className='text-uppercase'>It's easy and free to post your thinking on any topic and connect with millions of readers.</Title>
                 </Typography>
-                <Button type='primary' shape='round' size='large'> Start Now</Button>
+                <Button type='primary' shape='round' size='large'> <Link to='/Post'> Start Now </Link> </Button>
             </Col>
         </Row>
     );
