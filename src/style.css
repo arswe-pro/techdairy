@@ -51,6 +51,17 @@ html {
 }
 
 
+
+ .login-form-forgot {
+  float: right;
+}
+ .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+ .login-form-button {
+  width: 100%;
+}
+
 .footer{
   background-image: linear-gradient(to right, var(--blue) 0%, var(--secondary) 100%);
   border-top: 3px solid;
