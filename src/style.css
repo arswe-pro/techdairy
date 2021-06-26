@@ -74,9 +74,3 @@ html {
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
 }
-
-@media only screen and (max-width: 600px) {
-  .logo {
-    display: none;
-  }
-}

@@ -11,7 +11,8 @@ const Navbar = () => {
                 <span style={{ color: "#ff4d4f" }}> Tech </span> Dairy
             </Link>
             <Menu theme="dark" mode="horizontal" style={{ float: "right" }}>
-                <Menu.Item key='1' > <Link to='/Login'> Login </Link></Menu.Item>
+                <Menu.Item key='1' > <Link to='/Post'> Blog </Link></Menu.Item>
+                <Menu.Item key='2' > <Link to='/Login'> Login </Link></Menu.Item>
             </Menu>
         </Header>
     );
