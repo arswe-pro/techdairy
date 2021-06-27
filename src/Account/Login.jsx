@@ -1,13 +1,32 @@
-import { LockOutlined, UserOutlined } from '@ant-design/icons';
+import { GoogleOutlined, LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Card, Checkbox, Col, Form, Input, Row } from 'antd';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
+import { useAuth } from '../Authentication/useAuth';
 
 
 
 const Login = () => {
+    const auth = useAuth();
+    const history = useHistory();
+    const location = useLocation();
+    const { from } = location.state || { from: { pathname: "/" } };
+
     const onFinish = (values) => {
-        console.log('Received values of form: ', values);
+        handleSignIn(values.email, values.password);
+    };
+
+    const handleSignIn = (email, password) => {
+        auth.signInWithEmailAndPassword(email, password).then((res) => {
+            console.log(res);
+            history.replace(from);
+        });
+    };
+    const handleGoogleSignIn = () => {
+        auth.signInWithGoogle().then((res) => {
+            console.log(res);
+            history.replace(from);
+        });
     };
 
     return (
@@ -15,6 +34,8 @@ const Login = () => {
             <Col xs={23} sm={22} md={8} lg={8} xl={8} xxl={8} style={{ margin: "2rem 2rem" }}>
 
                 <Card title="Login">
+
+
 
                     <Form name="normal_login" className="login-form" initialValues={{ remember: true, }} onFinish={onFinish} autoComplete="off" >
 
@@ -43,6 +64,9 @@ const Login = () => {
                             Or <Link to='/register'>Register now!</Link>
                         </Form.Item>
                     </Form>
+                    <Button type="primary" shape='round' ghost block onClick={handleGoogleSignIn}>
+                        <GoogleOutlined /> Google
+                    </Button>
                 </Card>
             </Col>
         </Row>
