@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Raul Totterdell",
         "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
-        "Brand": "Speech Pathologist",
+        "Brand": "Description is the pattern of narrative development ",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration. In practice it would be difficult to write literature that drew on just one of the four basic modes"
     },
     {
         "id": 2,
         "name": "Catha Tite",
         "image": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-        "Brand": "Dental Hygienist",
+        "Brand": " pattern of narrative development that aims to make vivid a place, object, character, or group",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration. In practice it would be difficult to write literature that drew on just one of the four basic modes"
     },
     {
         "id": 3,
         "name": "Hobey Etridge",
         "image": "https://images.unsplash.com/photo-1517503733723-8ea1cf616798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80",
-        "Brand": "Nuclear Power Engineer",
+        "Brand": "pattern of narrative development that aims to make",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration. In practice it would be difficult to write literature that drew on just one of the four basic modes"
     },
     {
         "id": 4,
         "name": "Orton McCrillis",
         "image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=781&q=80",
-        "Brand": "Executive Secretary",
+        "Brand": "development that aims to make vivid a place",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration. In practice it would be difficult to write literature that drew on just one of the four basic modes"
     },
     {
         "id": 5,
         "name": "Raul Totterdell",
         "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
-        "Brand": "Speech Pathologist",
+        "Brand": "aims to make vivid a place, object, character",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration. In practice it would be difficult to write literature that drew on just one of the four basic modes"
     },
     {
         "id": 6,
         "name": "Frasquito le Keux",
         "image": "https://images.unsplash.com/photo-1538029192284-570deb5a788f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-        "Brand": "Biostatistician IV",
+        "Brand": "narrative development that aims to make vivid a place, object, character,",
         "description": "Description is the pattern of narrative development that aims to make vivid a place, object, character, or group. Description is one of four rhetorical modes, along with exposition, argumentation, and narration. In practice it would be difficult to write literature that drew on just one of the four basic modes"
     }
 ]
