@@ -54,7 +54,7 @@ const App = () => {
     </AuthContextProvider>
   ) : (
     <div style={{ textAlign: "center" }}>
-      <img src={loaders} alt="loading" />
+      <img src={loaders} alt="loading" width='500' />
     </div>
 
   );
