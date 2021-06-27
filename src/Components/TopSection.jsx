@@ -20,9 +20,8 @@ const TopSection = () => {
                         and connect with millions of readers.
                     </Title>
                 </Typography>
-                <Button type='dashed' shape='round' size='large'>
-                    {' '}
-                    <Link to='/Post'> Start Now </Link>{' '}
+                <Button type='primary' shape='round' size='large'>
+                    <Link to='/Post'> Start Now </Link>
                 </Button>
             </Col>
         </Row>

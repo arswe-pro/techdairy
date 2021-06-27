@@ -11,10 +11,12 @@ const Detail = ({ match }) => {
     return (
         <>
             <Button
-                type='dashed'
+                type='primary'
                 size='large'
+                danger
+                ghost
                 shape='round'
-                style={{ margin: '1rem', color: '#FFF' }}
+                style={{ margin: '1rem' }}
             >
                 <Link to='/'> Go Back</Link>
             </Button>
