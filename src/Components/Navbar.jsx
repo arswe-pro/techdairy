@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <Header>
             <Link className="logo" to="/" style={{ fontSize: "2rem", textTransform: 'uppercase' }}>
-                <span style={{ color: "#ff4d4f" }}> Tech </span> Dairy
+                <span style={{ color: "#FFF" }}> Tech </span> Dairy
             </Link>
             <Menu theme="dark" mode="horizontal" style={{ float: "right" }}>
                 <Menu.Item key='1' > <Link to='/Post'> Blog </Link></Menu.Item>

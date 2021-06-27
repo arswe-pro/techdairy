@@ -5,7 +5,7 @@ import React from 'react';
 const FooterComponent = () => {
     return (
         <Footer className='footer'>
-            <p >Tech Dairy  &copy; 2021  </p>
+            <p style={{ color: '#FFF' }}>Tech Dairy  &copy; 2021  </p>
         </Footer>
     );
 };
