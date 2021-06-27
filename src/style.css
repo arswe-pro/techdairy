@@ -7,7 +7,7 @@
   --warning : #ffee05;
   --dark: #000;
   --blue: #28c9e6;
-  --green: #29f36cfd;
+  --green: #00f552fd;
   --light: #FFF;
   --red: #fa0a8e;
   --gray-blue: #e5f7fc;
@@ -46,7 +46,7 @@ html {
 
 .height100{
   min-height: 100vh;
-  background-image: linear-gradient(to right, var(--gray-blue) 0%, var(--blue) 100%);
+  background-image: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
   
 }
 
@@ -63,7 +63,7 @@ html {
 }
 
 .footer{
-  background-image: linear-gradient(to right, var(--blue) 0%, var(--secondary) 100%);
+  background-image: linear-gradient(to right, var(--blue) 0%, var(--green) 100%);
   border-top: 3px solid;
   border-image-slice: 1;
   border-width: 3px;
@@ -83,5 +83,5 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
+  background-image: linear-gradient(to left, var(--green) 0%, var(--blue) 100%);
 }

@@ -11,9 +11,9 @@ const Detail = ({ match }) => {
 
     return (
         <>
-            <Button type='dashed' size='large' shape='round' style={{ margin: '2rem', color: '#FFF' }}> <Link to='/'> Go Back</Link> </Button>
+            <Button type='dashed' size='large' shape='round' style={{ margin: '1rem', color: '#FFF' }}> <Link to='/'> Go Back</Link> </Button>
             <Row justify='center' align='middle'>
-                <Col xs={23} sm={22} md={14} lg={14} xl={14} xxl={14} style={{ margin: "2rem 2rem" }}>
+                <Col xs={23} sm={22} md={14} lg={14} xl={14} xxl={14} style={{ margin: "2rem 1rem" }}>
                     <Card title={post.name} hoverable cover={<img alt={post.name} src={post.image} />} style={{ height: "100%" }} >
                         <Meta title={post.Brand} description={post.description} />
                     </Card>
