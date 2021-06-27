@@ -25,15 +25,15 @@ const register = () => {
                         autoComplete="off"
                     >
                         <Form.Item name="username" rules={[{ required: true, message: 'Please input your Username!', },]} >
-                            <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
+                            <Input size='large' prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
                         </Form.Item>
 
                         <Form.Item name="email" rules={[{ required: true, message: 'Please input your Email!', },]} >
-                            <Input prefix={<MailOutlined className="site-form-item-icon" />} placeholder="Email" />
+                            <Input size='large' prefix={<MailOutlined className="site-form-item-icon" />} placeholder="Email" />
                         </Form.Item>
 
                         <Form.Item name="password" rules={[{ required: true, message: 'Please input your Password!', },]} >
-                            <Input prefix={<LockOutlined className="site-form-item-icon" />} type="password" placeholder="Password" />
+                            <Input size='large' prefix={<LockOutlined className="site-form-item-icon" />} type="password" placeholder="Password" />
                         </Form.Item>
 
 

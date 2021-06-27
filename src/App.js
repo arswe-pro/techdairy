@@ -2,6 +2,7 @@ import React from "react";
 import {
   BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
+import ForgotPassword from "./Account/ForgotPassword";
 import Login from "./Account/Login";
 import register from "./Account/register";
 import FooterComponent from "./Components/Footer";
@@ -20,9 +21,11 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/Post" component={Post} />
+        <Route path="/Detail/:id" component={Detail} />
         <Route exact path="/Login" component={Login} />
         <Route exact path="/register" component={register} />
-        <Route path="/Detail/:id" component={Detail} />
+        <Route exact path="/ForgotPassword" component={ForgotPassword} />
+
         <Route path="*" component={NotFound} />
       </Switch>
       <FooterComponent />

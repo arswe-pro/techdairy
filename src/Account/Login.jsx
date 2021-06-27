@@ -15,41 +15,17 @@ const Login = () => {
             <Col xs={23} sm={22} md={8} lg={8} xl={8} xxl={8} style={{ margin: "2rem 2rem" }}>
 
                 <Card title="Login">
-                    <Form
-                        name="normal_login"
-                        className="login-form"
-                        initialValues={{
-                            remember: true,
-                        }}
-                        onFinish={onFinish}
-                        autoComplete="off"
-                    >
-                        <Form.Item
-                            name="username"
-                            rules={[
-                                {
-                                    required: true,
-                                    message: 'Please input your Username!',
-                                },
-                            ]}
-                        >
-                            <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
+
+                    <Form name="normal_login" className="login-form" initialValues={{ remember: true, }} onFinish={onFinish} autoComplete="off" >
+
+                        <Form.Item name="username" rules={[{ required: true, message: 'Please input your Username!', },]}   >
+                            <Input size='large' prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
                         </Form.Item>
-                        <Form.Item
-                            name="password"
-                            rules={[
-                                {
-                                    required: true,
-                                    message: 'Please input your Password!',
-                                },
-                            ]}
-                        >
-                            <Input
-                                prefix={<LockOutlined className="site-form-item-icon" />}
-                                type="password"
-                                placeholder="Password"
-                            />
+
+                        <Form.Item name="password" rules={[{ required: true, message: 'Please input your Password!', },]} >
+                            <Input size='large' prefix={<LockOutlined className="site-form-item-icon" />} type="password" placeholder="Password" />
                         </Form.Item>
+
                         <Form.Item>
                             <Form.Item name="remember" valuePropName="checked" noStyle>
                                 <Checkbox>Remember me</Checkbox>
@@ -64,7 +40,7 @@ const Login = () => {
                             <Button type="primary" htmlType="submit" className="login-form-button">
                                 Log in
                             </Button>
-                            Or <Link to='/register'>register now!</Link>
+                            Or <Link to='/register'>Register now!</Link>
                         </Form.Item>
                     </Form>
                 </Card>
