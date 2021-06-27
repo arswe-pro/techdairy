@@ -1,8 +1,8 @@
-import { Redirect, Route } from "react-router";
-import { useAuth } from "./useAuth";
+import { Redirect, Route } from 'react-router'
+import { useAuth } from './useAuth'
 
 const PrivateRoute = ({ children, ...rest }) => {
-    const auth = useAuth();
+    const auth = useAuth()
     return (
         <Route
             {...rest}
@@ -12,13 +12,13 @@ const PrivateRoute = ({ children, ...rest }) => {
                 ) : (
                     <Redirect
                         to={{
-                            pathname: "/Login",
+                            pathname: '/Login',
                             state: { from: location },
                         }}
                     />
                 )
             }
         />
-    );
-};
-export default PrivateRoute;
+    )
+}
+export default PrivateRoute

@@ -1,12 +1,12 @@
-import React from 'react';
-import loaders from '../assets/img/loaders.gif';
+import React from 'react'
+import loaders from '../assets/img/loaders.gif'
 
 const Loader = () => {
     return (
         <div>
-            <img src={loaders} alt="loader" />
+            <img src={loaders} alt='loader' />
         </div>
-    );
-};
+    )
+}
 
-export default Loader;
+export default Loader

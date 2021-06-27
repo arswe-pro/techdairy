@@ -1,6 +1,6 @@
-import React from 'react';
-import Post from '../Components/Post';
-import TopSection from '../Components/TopSection';
+import React from 'react'
+import Post from '../Components/Post'
+import TopSection from '../Components/TopSection'
 
 const Home = () => {
     return (
@@ -8,7 +8,7 @@ const Home = () => {
             <TopSection />
             <Post />
         </div>
-    );
-};
+    )
+}
 
-export default Home;
+export default Home

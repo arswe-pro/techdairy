@@ -63,14 +63,14 @@ html {
 }
 
 .footer{
-  background-image: linear-gradient(to right, var(--blue) 0%, var(--green) 100%);
+  background-image: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
   border-top: 3px solid;
   border-image-slice: 1;
   border-width: 3px;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
-  border-image-source: linear-gradient(to left, var(--dark), var(--dark));
+  border-image-source: linear-gradient(to left, var(--green), var(--blue));
   
 }
 
@@ -83,5 +83,5 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(to left, var(--green) 0%, var(--blue) 100%);
+  background-image: linear-gradient(to left, var(--green), var(--blue));
 }
